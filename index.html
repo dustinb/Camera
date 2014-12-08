@@ -26,10 +26,10 @@
     options.params = new Object();
 
     ft.upload(imageURI, encodeURI(serverURL + "/upload.php"),
-      function (e) {
+      function (r) {
         alert("Code = " + r.responseCode + ": Response = " + r.response + ": Sent = " + r.bytesSent);
       },
-      function (e) {
+      function (r) {
         alert("An error has occurred: Code = " + error.code + ':' + error.source + ':' + error.target);
       }, options);
   }
