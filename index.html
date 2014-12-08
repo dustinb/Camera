@@ -25,7 +25,7 @@
     options.chunkedMode = false;
     options.params = new Object();
 
-    ft.upload(imageURI, serverURL + "/upload",
+    ft.upload(imageURI, encodeURI(serverURL + "/upload.php"),
       function (e) {
         alert("Code = " + r.responseCode + ": Response = " + r.response + ": Sent = " + r.bytesSent);
       },
