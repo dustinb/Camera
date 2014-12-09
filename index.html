@@ -24,7 +24,7 @@
     options.mimeType = "image/jpeg";
     options.chunkedMode = false;
     options.params = new Object();
-    var headers={'Content-Type':'multipart/form-data; boundary=+++++'};
+    var headers={"Content-Type" : 'multipart/form-data; boundary=+++++'};
     options.headers = headers;
 
     ft.upload(imageURI, encodeURI(serverURL + "/upload.php"),
