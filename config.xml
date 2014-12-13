@@ -18,6 +18,6 @@
 
     <gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
     <gap:plugin name="com.chanthu.evri.gcs-file-transfer" version="1.0.0" />
-    <gpa:plugin name="org.apache.cordova.Capture"/>
+    <gap:plugin name="org.apache.cordova.Capture"/>
 
 </widget>
